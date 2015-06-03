@@ -3,3 +3,9 @@
         [".gitconfig"],
         [".gitignore_global"],
     ]
+
+[tasks.mac]
+    deps = ["default"]
+    links = [
+        ["Library/Application Support/Sublime Text 3/Packages/User", "Sublime Text User"],
+    ]

@@ -1,0 +1,16 @@
+{
+  "snippets": [
+      {
+          "match": {"global": true, "pkgname": ".", "fn": ".*_test.go"},
+          "snippets": [
+              {"text": "func Test", "title": "", "value": "func Test${1:ObjectName}${2:TestName}(t *testing.T) {\n\t$0\n}"},
+              {"text": "func Benchmark", "title": "", "value": "func Benchmark${1:ObjectName}${2:BenchmarkName}(b *testing.B) {\n\n\tb.StopTimer()\n\n\t$0\n\n\tb.StartTimer()\n\n\tfor i := 0; i < b.N; i++ {\n\t\t\n\t}\n\n}"},
+              {"text": "func Example", "title": "", "value": "func Example${1:ObjectName}${2:ExampleName}() {\n\n\t$0\n\n\t// Output:\n\t// \n\n}"}
+          ]
+      }
+  ],
+  "autocomplete_closures": true,
+  "complete_builtins": true,
+  "fmt_tab_width": 2,
+  "fmt_cmd": ["goimports"]
+}

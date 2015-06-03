@@ -1,0 +1,16 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Better CoffeeScript",
+		"GoSublime",
+		"Handlebars",
+		"Package Control",
+		"Rust",
+		"Theme - Sodarized",
+		"TOML"
+	]
+}
