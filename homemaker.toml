@@ -1,0 +1,5 @@
+[tasks.default]
+    links = [
+        [".gitconfig"],
+        [".gitignore_global"],
+    ]

@@ -1,0 +1,20 @@
+[user]
+	name = Ryan Leavengood
+	email = leavengood@gmail.com
+[github]
+	user = leavengood
+[alias]
+	rr = log --color --graph --pretty=format:'%Cred%h%Creset - %Cgreen<%ae>%Creset - %Cblue(%cr)%Creset -%C(yellow)%d%Creset %s' --abbrev-commit --date=relative
+  st = status -sb
+  aa = add --all --intent-to-add
+  ap = add --patch
+[color]
+	diff = always
+	ui = always
+[core]
+	excludesfile = ~/.gitignore_global
+  precomposeunicode = true
+[help]
+	autocorrect = 1
+[push]
+  default = current
